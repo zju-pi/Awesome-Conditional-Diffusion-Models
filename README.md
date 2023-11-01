@@ -4,4 +4,4 @@ This repo is constructed for collecting and categorizing papers about conditiona
 
 ## A mind map
 
-![Conditional image synthesis with diffusion model](Images/Conditional image synthesis with diffusion model.png)
+![Conditional image synthesis with diffusion model](https://github.com/Szy12345-liv/A-Survey-on-conditional-image-synthesis-with-diffusion-model/blob/main/Images/Conditional%20image%20synthesis%20with%20diffusion%20model.png)
