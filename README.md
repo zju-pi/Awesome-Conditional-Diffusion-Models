@@ -90,6 +90,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | Paper                                                        | Model                   | Arxiv                                                 | Date       | Comments  | Code |
 | :----------------------------------------------------------- | ----------------------- | ----------------------------------------------------- | ---------- | --------- | ---- |
 | Null-text Inversion for Editing Real Images using  Guided Diffusion Models | **Null Text Inversion** | [arXiv:2211.09794](https://arxiv.org/abs/2211.09794)  | 2022.11.17 | CVPR 2023 |      |
+| EDICT: Exact Diffusion Inversion via Coupled Transformations | **EDICT**               | https://arxiv.org/abs/2211.12446                      | 2022.11.22 | CVPR2023  |      |
 | Negative-prompt Inversion: Fast Image Inversion for  Editing with Text-guided Diffusion Models | **Negative Inversion**  | [arXiv:2305.16807 ](https://arxiv.org/abs/2305.16807) | 2023.05.26 |           |      |
 | StyleDiffusion: Controllable Disentangled Style  Transfer via Diffusion Models | Style Diffusion         | [arXiv:2308.07863](https://arxiv.org/abs/2308.07863)  | 2023.08.15 | ICCV 2023 |      |
 | Direct Inversion: Boosting Diffusion-based Editing  with 3 Lines of Code | Direct Inversion        | [arXiv:2310.01506 ](https://arxiv.org/abs/2310.01506) | 2023.10.02 |           |      |
