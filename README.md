@@ -17,8 +17,8 @@ This repo is constructed for collecting and categorizing papers about conditiona
 - [Image editing](#image-editing)
   - [Supervise](##supervise)
   - [Zero-shot](##zero-shot)
-- [Image restoration](#image restoration)
-- [Auxiliary methods for condition injecting](#auxiliary methods for condition injecting)
+- [Image restoration](#image-restoration)
+- [Auxiliary methods for condition injecting](#auxiliary-methods-for-condition-injecting)
 
 **The date in the table represents the publication date of the first version of the paper on Arxiv.**
 
