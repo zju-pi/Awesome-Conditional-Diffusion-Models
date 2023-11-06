@@ -10,14 +10,16 @@ This repo is constructed for collecting and categorizing papers about conditiona
 - [Domain Translation](#domain-translation)
 - [Text-to-image](#text-to-image)
   - [Diffusion in latent space](#diffusion-in-latent-space)
+  - [Diffusion in image space](#diffusion-in-image-space)
 - [Semantic maps to image](#semantic-maps-to-image)
+- [Image editing](#image-editing)
   - [Text edit with CLIP](#text-edit-with-CLIP)
   - [Exploit big T2I models](#exploit-big-T2I-models)
   - [CFG Inversion Technics](#CFG-inversion-technics)
-- [Image editing](#image-editing)
+  
+- [Image restoration](#image-restoration)
   - [Supervise](#supervise)
   - [Zero-shot](#zero-shot)
-- [Image restoration](#image-restoration)
 - [Auxiliary methods for condition injecting](#auxiliary-methods-for-condition-injecting)
 
 **The date in the table represents the publication date of the first version of the paper on Arxiv.**
