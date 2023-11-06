@@ -7,20 +7,18 @@ This repo is constructed for collecting and categorizing papers about conditiona
 ![Conditional image synthesis with diffusion model](https://github.com/Szy12345-liv/A-Survey-on-conditional-image-synthesis-with-diffusion-model/blob/main/Images/Conditional%20image%20synthesis%20with%20diffusion%20model.png)
 
 ## Contents
-- [Domain Translation](#Domain-Translation)
-- [Text-to-image](#Text-to-image)
-  - [Diffusion in Latent space](##Diffusion in Latent space)
-- [Semantic maps to image](#Semantic maps to image)
-  - [Text edit with CLIP](##Text edit with CLIP)
-  - [Exploit big T2I models](##Exploit big T2I models)
-  - [CFG Inversion Technics](##CFG Inversion Technics)
-
-- [Image editing](#Image Editing)
-  - [Supervise](##Supervise)
-  - [Zero-shot](##Zero-shot)
-
-- [Image restoration](#Image restoration)
-- [Auxiliary methods for condition injecting](#Auxiliary methods for condition injecting)
+- [Domain Translation](#domain-translation)
+- [Text-to-image](#text-to-image)
+  - [Diffusion in latent space](##diffusion-in-latent-space)
+- [Semantic maps to image](#semantic-maps-to-image)
+  - [Text edit with CLIP](##text-edit-with-CLIP)
+  - [Exploit big T2I models](##exploit-big-T2I-models)
+  - [CFG Inversion Technics](##CFG-inversion-technics)
+- [Image editing](#image-editing)
+  - [Supervise](##supervise)
+  - [Zero-shot](##zero-shot)
+- [Image restoration](#image restoration)
+- [Auxiliary methods for condition injecting](#auxiliary methods for condition injecting)
 
 **The date in the table represents the publication date of the first version of the paper on Arxiv.**
 
@@ -36,7 +34,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
 
 # Text-to-image
 
-## Diffusion in Latent space
+## Diffusion in latent Space
 
 | Paper                                                        | Model            | Arxiv                                                | Date       | Comments  | Code |
 | ------------------------------------------------------------ | ---------------- | ---------------------------------------------------- | ---------- | --------- | ---- |
