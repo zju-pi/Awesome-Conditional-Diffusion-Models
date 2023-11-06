@@ -7,7 +7,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
 ![Conditional image synthesis with diffusion model](https://github.com/Szy12345-liv/A-Survey-on-conditional-image-synthesis-with-diffusion-model/blob/main/Images/Conditional%20image%20synthesis%20with%20diffusion%20model.png)
 
 ## Contents
-- [Domain Translation](#Domain Translation)
+- [Domain Translation](#Domain-Translation)
 - [Text-to-image](#Text-to-image)
   - [Diffusion in Latent space](##Diffusion in Latent space)
 - [Semantic maps to image](#Semantic maps to image)
