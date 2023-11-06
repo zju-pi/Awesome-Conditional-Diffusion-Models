@@ -17,6 +17,11 @@ This repo is constructed for collecting and categorizing papers about conditiona
   - [Exploit big T2I models](#exploit-big-T2I-models)
   - [CFG Inversion Technics](#CFG-inversion-technics)
   
+- [Customization](#customization)
+  - [Model fine tuning](#model-fine-tuning)
+  
+  - [Textual embedding optimization](#textual-embedding-optimization)
+  
 - [Image restoration](#image-restoration)
   - [Supervise](#supervise)
   - [Zero-shot](#zero-shot)
@@ -80,7 +85,6 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | Paper                                                        | Model                | Arxiv                                                 | Date       | Comments  | Code |
 | :----------------------------------------------------------- | -------------------- | ----------------------------------------------------- | ---------- | --------- | ---- |
 | Prompt-to-Prompt Image Editing with Cross Attention  Control | **Prompt-to-prompt** | [arXiv:2208.01626 ](https://arxiv.org/abs/2208.01626) | 2022.08.02 | ICLR 2023 |      |
-| DreamBooth: Fine Tuning Text-to-Image Diffusion Models  for Subject-Driven Generation | **DreamBooth**       | [arXiv:2208.12242 ](https://arxiv.org/abs/2208.12242) | 2022.08.25 | CVPR 2023 |      |
 | Imagic: Text-Based Real Image Editing with Diffusion  Models | **Imagic**           | [arXiv:2210.09276](https://arxiv.org/abs/2210.09276)  | 2022.10.17 | CVPR 2023 |      |
 | DiffEdit: Diffusion-based semantic image editing with  mask guidance | **Diffedit**         | [arXiv:2210.11427 ](https://arxiv.org/abs/2210.11427) | 2022.10.20 | ICLR 2023 |      |
 | FORGEDIT: TEXT GUIDED IMAGE EDITING VIA LEARN- ING AND  FORGETTING | **Forgedit**         | [arXiv:2309.10556](https://arxiv.org/abs/2309.10556)  | 2023.09.19 |           |      |
@@ -95,6 +99,20 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | StyleDiffusion: Controllable Disentangled Style  Transfer via Diffusion Models | Style Diffusion         | [arXiv:2308.07863](https://arxiv.org/abs/2308.07863)  | 2023.08.15 | ICCV 2023 |      |
 | Direct Inversion: Boosting Diffusion-based Editing  with 3 Lines of Code | Direct Inversion        | [arXiv:2310.01506 ](https://arxiv.org/abs/2310.01506) | 2023.10.02 |           |      |
 
+# Customization
+
+## Model fine tuning
+
+| Paper                                                        | Model          | Arxiv                                                 | Date       | Comments  | Code |
+| :----------------------------------------------------------- | -------------- | ----------------------------------------------------- | ---------- | --------- | ---- |
+| DreamBooth: Fine Tuning Text-to-Image Diffusion Models  for Subject-Driven Generation | **DreamBooth** | [arXiv:2208.12242 ](https://arxiv.org/abs/2208.12242) | 2022.08.25 | CVPR 2023 |      |
+
+## Textual embedding optimization
+
+| Paper                                                        | Model             | Arxiv                                                 | Date       | Comments  | Code |
+| :----------------------------------------------------------- | ----------------- | ----------------------------------------------------- | ---------- | --------- | ---- |
+| An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion | Textual Inversion | [arXiv:2208.01618 ](https://arxiv.org/abs/2208.01618) | 2022.08.02 | ICLR 2023 |      |
+
 # Image restoration
 
 ## Supervise
@@ -102,7 +120,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | Paper                                                        | Model                       | Arxiv                                                 | Date       | Comments            | Code |
 | :----------------------------------------------------------- | --------------------------- | ----------------------------------------------------- | ---------- | ------------------- | ---- |
 | Image Super-Resolution via Iterative Refinement              | **SR3**                     | [arXiv:2104.07636](https://arxiv.org/abs/2104.07636)  | 2021.04.15 |                     |      |
-| SRDiff: Single Image Super-Resolution with Diffusion  Probabilistic Models | SRDiff                      | [arXiv:2104.14951 ](https://arxiv.org/abs/2104.14951) | 2021.04.30 | Neurocomputing 2022 |      |
+| SRDiff: Single Image Super-Resolution with Diffusion  Probabilistic Models | **SRDiff**                  | [arXiv:2104.14951 ](https://arxiv.org/abs/2104.14951) | 2021.04.30 | Neurocomputing 2022 |      |
 | Cascaded Diffusion Models for High Fidelity Image  Generation | **Cascade Diffusion Model** | [arXiv:2106.15282 ](https://arxiv.org/abs/2106.15282) | 2021.05.30 | JMLR 2022           |      |
 | Palette: Image-to-Image Diffusion Models                     | **Palette**                 | [arXiv:2111.05826 ](https://arxiv.org/abs/2111.05826) | 2021.11.10 | ICLR 2022           |      |
 | Image Restoration with Mean-Reverting Stochastic  Differential Equations | **IR-SDE**                  | [arXiv:2301.11699 ](https://arxiv.org/abs/2301.11699) | 2023.01.27 | ICML 2023           |      |
