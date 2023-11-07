@@ -141,6 +141,6 @@ This repo is constructed for collecting and categorizing papers about conditiona
 
 | Paper                                                        | Model                 | Arxiv                                                 | Date       | Comments            | Code |
 | :----------------------------------------------------------- | --------------------- | ----------------------------------------------------- | ---------- | ------------------- | ---- |
-| BLIP: Bootstrapping Language-Image Pre-training for  Unified Vision-Language Understanding and Generation | BLIP                  | [arXiv:2201.12086 ](https://arxiv.org/abs/2201.12086) | 2022.01.28 | ICML 2022           |      |
+| BLIP: Bootstrapping Language-Image Pre-training for  Unified Vision-Language Understanding and Generation | **BLIP**              | [arXiv:2201.12086 ](https://arxiv.org/abs/2201.12086) | 2022.01.28 | ICML 2022           |      |
 | Classifier-Free Diffusion Guidance                           | **CFG**               | [arXiv:2207.12598](https://arxiv.org/abs/2207.12598)  | 2022.07.26 | NIPS 2021  Workshop |      |
 | An Image is Worth One Word: Personalizing  Text-to-Image Generation using Textual Inversion | **Textual Inversion** | [arXiv:2208.01618 ](https://arxiv.org/abs/2208.01618) | 2022.08.02 | ICLR 2023           |      |
