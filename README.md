@@ -25,7 +25,10 @@ This repo is constructed for collecting and categorizing papers about conditiona
 - [Image restoration](#image-restoration)
   - [Supervise](#supervise)
   - [Zero-shot](#zero-shot)
-- [Auxiliary methods for condition injecting](#auxiliary-methods-for-condition-injecting)
+- [Auxiliary technics for condition injecting](#auxiliary-technics-for-condition-injecting)
+  - [Image Captioning/Tokenizing](#image-captioning/tokenizing)
+  - [Guidance Technics](#guidance-technics)
+
 
 **The date in the table represents the publication date of the first version of the paper on Arxiv.**
 
