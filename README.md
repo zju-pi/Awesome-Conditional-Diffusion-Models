@@ -137,10 +137,21 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | Diffusion Posterior Sampling for General Noisy Inverse  Problems | **DPS**             | [arXiv:2209.14687 ](https://arxiv.org/abs/2209.14687) | 2022.09.29 | ICLR 2023 |      |
 | Parallel Diffusion Models of Operator and Image for  Blind Inverse Problems | BlindDPS            | [arXiv:2211.10656 ](https://arxiv.org/abs/2211.10656) | 2022.11.19 | CVPR 2023 |      |
 
-# Auxiliary methods for condition injecting
+# Auxiliary technics for condition injecting
 
-| Paper                                                        | Model                 | Arxiv                                                 | Date       | Comments            | Code |
-| :----------------------------------------------------------- | --------------------- | ----------------------------------------------------- | ---------- | ------------------- | ---- |
-| BLIP: Bootstrapping Language-Image Pre-training for  Unified Vision-Language Understanding and Generation | **BLIP**              | [arXiv:2201.12086 ](https://arxiv.org/abs/2201.12086) | 2022.01.28 | ICML 2022           |      |
-| Classifier-Free Diffusion Guidance                           | **CFG**               | [arXiv:2207.12598](https://arxiv.org/abs/2207.12598)  | 2022.07.26 | NIPS 2021  Workshop |      |
-| An Image is Worth One Word: Personalizing  Text-to-Image Generation using Textual Inversion | **Textual Inversion** | [arXiv:2208.01618 ](https://arxiv.org/abs/2208.01618) | 2022.08.02 | ICLR 2023           |      |
+## Image Captioning/Tokenizing
+
+| Paper                                                        | Model/Technic         | Arxiv                                                 | Date       | Comments  | Code |
+| :----------------------------------------------------------- | --------------------- | ----------------------------------------------------- | ---------- | --------- | ---- |
+| An Image is Worth One Word: Personalizing  Text-to-Image Generation using Textual Inversion | **Textual Inversion** | [arXiv:2208.01618 ](https://arxiv.org/abs/2208.01618) | 2022.08.02 | ICLR 2023 |      |
+| BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation | **BLIP**              | [arXiv:2201.12086 ](https://arxiv.org/abs/2201.12086) | 2022.01.28 | ICML 2022 |      |
+| Encoder-based  Domain Tuning for Fast Personalization of Text-to-Image Models | E4T                   | [arXiv:2302.12228](https://arxiv.org/abs/2302.12228)  | 2023.02.23 | TOG 2023  |      |
+| Extended textual conditioning in text-to-image generation    | P+                    | [arXiv:2303.09522](https://arxiv.org/abs/2303.09522)  | 2023.03.16 |           |      |
+
+## Guidance Technics
+
+| Paper                                                        | Model/Technic           | Arxiv                                                 | Date       | Comments            | Code |
+| :----------------------------------------------------------- | ----------------------- | ----------------------------------------------------- | ---------- | ------------------- | ---- |
+| Classifier-Free Diffusion Guidance                           | **CFG**                 | [arXiv:2207.12598](https://arxiv.org/abs/2207.12598)  | 2022.07.26 | NIPS 2021  Workshop |      |
+| Blended Diffusion for Text-driven Editing of Natural  Images | **CLIP-Guidance**       | [arXiv:2111.14818 ](https://arxiv.org/abs/2111.14818) | 2021.11.29 | CVPR 2022           |      |
+| Diffusion Models Beat GANs on Image Synthesis                | **Classifier Guidance** | [arXiv:2105.05233](https://arxiv.org/abs/2105.05233)  | 2021.05.11 | NIPS2021            |      |
