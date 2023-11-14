@@ -11,7 +11,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
 - [Text-to-image](#text-to-image)
   - [Diffusion in latent space](#diffusion-in-latent-space)
   - [Diffusion in image space](#diffusion-in-image-space)
-- [Semantic maps to image](#semantic-maps-to-image)
+- [Image guidance to image](#image-guidance-to-image)
 - [Image editing](#image-editing)
   - [Text edit with CLIP](#text-edit-with-CLIP)
   - [Exploit big T2I models](#exploit-big-T2I-models)
