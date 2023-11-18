@@ -65,9 +65,10 @@ This repo is constructed for collecting and categorizing papers about conditiona
 
 | Paper                                                        | Model           | Arxiv                                                | Date       | Comments  | Code |
 | ------------------------------------------------------------ | --------------- | ---------------------------------------------------- | ---------- | --------- | ---- |
-| High-Resolution Image Synthesis with Latent Diffusion Models | **LDM**         | [arXiv:2112.10752](https://arxiv.org/abs/2112.10752) | 2021.12.20 | CVPR 2022 |      |
-| Adding Conditional Control to Text-to-Image Diffusion Models | **ControlNet**  | [arXiv:2302.05543](https://arxiv.org/abs/2302.05543) | 2023.09.02 | CVPR 2023 |      |
-| T2i-adapter:  Learning adapters to dig out more controllable abil- ity for text-to-image  diffusion models. | **T2i-adapter** | [arXiv:2302.08453](https://arxiv.org/abs/2302.08453) | 2023.02.16 |           |      |
+| High-Resolution Image Synthesis with Latent Diffusion  Models | **LDM**         | [arXiv:2112.10752](https://arxiv.org/abs/2112.10752) | 2021.12.20 | CVPR 2022 |      |
+| Pretraining is All You Need for Image-to-Image  Translation  | **PITI**        | [arXiv:2205.12952](https://arxiv.org/abs/2205.12952) | 2022.05.25 |           |      |
+| T2i-adapter: Learning adapters to dig out more  controllable abil- ity for text-to-image diffusion models. | **T2i-adapter** | [arXiv:2302.08453](https://arxiv.org/abs/2302.08453) | 2023.02.16 |           |      |
+| Adding Conditional Control to Text-to-Image Diffusion  Models | **ControlNet**  | [arXiv:2302.05543](https://arxiv.org/abs/2302.05543) | 2023.09.02 | CVPR 2023 |      |
 
 
 
