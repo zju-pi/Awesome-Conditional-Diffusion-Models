@@ -108,9 +108,10 @@ This repo is constructed for collecting and categorizing papers about conditiona
 
 ## Model fine tuning
 
-| Paper                                                        | Model          | Arxiv                                                 | Date       | Comments  | Code |
-| :----------------------------------------------------------- | -------------- | ----------------------------------------------------- | ---------- | --------- | ---- |
-| DreamBooth: Fine Tuning Text-to-Image Diffusion Models  for Subject-Driven Generation | **DreamBooth** | [arXiv:2208.12242 ](https://arxiv.org/abs/2208.12242) | 2022.08.25 | CVPR 2023 |      |
+| Paper                                                        | Model                | Arxiv                                                 | Date       | Comments  | Code |
+| :----------------------------------------------------------- | -------------------- | ----------------------------------------------------- | ---------- | --------- | ---- |
+| DreamBooth: Fine Tuning Text-to-Image Diffusion Models  for Subject-Driven Generation | **DreamBooth**       | [arXiv:2208.12242 ](https://arxiv.org/abs/2208.12242) | 2022.08.25 | CVPR 2023 |      |
+| Multi-Concept Customization of Text-to-Image Diffusion       | **Custom Diffusion** | [arXiv:2212.04488](https://arxiv.org/abs/2212.04488)  | 2022.12.08 |           |      |
 
 ## Textual embedding optimization
 
