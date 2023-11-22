@@ -28,7 +28,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
 - [Auxiliary technics for condition injecting](#auxiliary-technics-for-condition-injecting)
   - [Image Captioning/Tokenizing](#image-captioning/tokenizing)
   - [Guidance Technics](#guidance-technics)
-
+  - [Composition of Conditional Diffusion Models](#composition-of-conditional-diffusion-models)
 
 **The date in the table represents the publication date of the first version of the paper on Arxiv.**
 
@@ -161,3 +161,9 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | Classifier-Free Diffusion Guidance                           | **CFG**                 | [arXiv:2207.12598](https://arxiv.org/abs/2207.12598)  | 2022.07.26 | NIPS 2021  Workshop |      |
 | Blended Diffusion for Text-driven Editing of Natural  Images | **CLIP-Guidance**       | [arXiv:2111.14818 ](https://arxiv.org/abs/2111.14818) | 2021.11.29 | CVPR 2022           |      |
 | Diffusion Models Beat GANs on Image Synthesis                | **Classifier Guidance** | [arXiv:2105.05233](https://arxiv.org/abs/2105.05233)  | 2021.05.11 | NIPS2021            |      |
+
+## Composition of Conditional Diffusion Models
+
+| Paper                                                        | Model/Technic     | Arxiv                                                | Date       | Comments  | Code |
+| :----------------------------------------------------------- | ----------------- | ---------------------------------------------------- | ---------- | --------- | ---- |
+| Compositional Visual Generation with Composable Diffusion Models | **Composable DM** | [arXiv:2206.01714](https://arxiv.org/abs/2206.01714) | 2022.06.03 | ECCV 2022 |      |
