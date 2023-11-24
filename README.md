@@ -16,12 +16,10 @@ This repo is constructed for collecting and categorizing papers about conditiona
   - [Text edit with CLIP](#text-edit-with-CLIP)
   - [Exploit big T2I models](#exploit-big-T2I-models)
   - [CFG Inversion Technics](#CFG-inversion-technics)
-  
 - [Customization](#customization)
   - [Model fine tuning](#model-fine-tuning)
   
   - [Textual embedding optimization](#textual-embedding-optimization)
-  
 - [Image restoration](#image-restoration)
   - [Supervise](#supervise)
   - [Zero-shot](#zero-shot)
@@ -29,6 +27,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
   - [Image Captioning/Tokenizing](#image-captioning/tokenizing)
   - [Guidance Technics](#guidance-technics)
   - [Composition of Conditional Diffusion Models](#composition-of-conditional-diffusion-models)
+  - [Super-Resolution for Conditional Diffusion Models](#super-resolution-for-conditional-diffusion-models)
 
 **The date in the table represents the publication date of the first version of the paper on Arxiv.**
 
@@ -63,12 +62,13 @@ This repo is constructed for collecting and categorizing papers about conditiona
 
 # Image guidance to image
 
-| Paper                                                        | Model           | Arxiv                                                | Date       | Comments  | Code |
-| ------------------------------------------------------------ | --------------- | ---------------------------------------------------- | ---------- | --------- | ---- |
-| High-Resolution Image Synthesis with Latent Diffusion  Models | **LDM**         | [arXiv:2112.10752](https://arxiv.org/abs/2112.10752) | 2021.12.20 | CVPR 2022 |      |
-| Pretraining is All You Need for Image-to-Image  Translation  | **PITI**        | [arXiv:2205.12952](https://arxiv.org/abs/2205.12952) | 2022.05.25 |           |      |
-| T2i-adapter: Learning adapters to dig out more  controllable abil- ity for text-to-image diffusion models. | **T2i-adapter** | [arXiv:2302.08453](https://arxiv.org/abs/2302.08453) | 2023.02.16 |           |      |
-| Adding Conditional Control to Text-to-Image Diffusion  Models | **ControlNet**  | [arXiv:2302.05543](https://arxiv.org/abs/2302.05543) | 2023.09.02 | CVPR 2023 |      |
+| Paper                                                        | Model                | Arxiv                                                | Date       | Comments  | Code |
+| ------------------------------------------------------------ | -------------------- | ---------------------------------------------------- | ---------- | --------- | ---- |
+| High-Resolution Image Synthesis with Latent Diffusion  Models | **LDM**              | [arXiv:2112.10752](https://arxiv.org/abs/2112.10752) | 2021.12.20 | CVPR 2022 |      |
+| Pretraining is All You Need for Image-to-Image  Translation  | **PITI**             | [arXiv:2205.12952](https://arxiv.org/abs/2205.12952) | 2022.05.25 |           |      |
+| Sketch-Guided Text-to-Image Diffusion Models                 | **Sketch-Guided DM** | [arXiv:2211.13752](https://arxiv.org/abs/2211.13752) | 2022.11.24 |           |      |
+| T2i-adapter: Learning adapters to dig out more  controllable abil- ity for text-to-image diffusion models. | **T2i-adapter**      | [arXiv:2302.08453](https://arxiv.org/abs/2302.08453) | 2023.02.16 |           |      |
+| Adding Conditional Control to Text-to-Image Diffusion  Models | **ControlNet**       | [arXiv:2302.05543](https://arxiv.org/abs/2302.05543) | 2023.09.02 | CVPR 2023 |      |
 
 
 
@@ -167,3 +167,9 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | Paper                                                        | Model/Technic     | Arxiv                                                | Date       | Comments  | Code |
 | :----------------------------------------------------------- | ----------------- | ---------------------------------------------------- | ---------- | --------- | ---- |
 | Compositional Visual Generation with Composable Diffusion Models | **Composable DM** | [arXiv:2206.01714](https://arxiv.org/abs/2206.01714) | 2022.06.03 | ECCV 2022 |      |
+
+## Super-Resolution for Conditional Diffusion Models
+
+| Paper                                                        | Model/Technic  | Arxiv                                                | Date       | Comments  | Code |
+| :----------------------------------------------------------- | -------------- | ---------------------------------------------------- | ---------- | --------- | ---- |
+| Cascaded Diffusion Models for High Fidelity Image Generation | **Cascade DM** | [arXiv:2106.15282](https://arxiv.org/abs/2106.15282) | 2021.05.30 | JMLR 2022 |      |
