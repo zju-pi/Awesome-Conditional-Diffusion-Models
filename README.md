@@ -69,6 +69,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | Sketch-Guided Text-to-Image Diffusion Models                 | **Sketch-Guided DM** | [arXiv:2211.13752](https://arxiv.org/abs/2211.13752) | 2022.11.24 |           |      |
 | T2i-adapter: Learning adapters to dig out more  controllable abil- ity for text-to-image diffusion models. | **T2i-adapter**      | [arXiv:2302.08453](https://arxiv.org/abs/2302.08453) | 2023.02.16 |           |      |
 | Adding Conditional Control to Text-to-Image Diffusion  Models | **ControlNet**       | [arXiv:2302.05543](https://arxiv.org/abs/2302.05543) | 2023.09.02 | CVPR 2023 |      |
+| eDiff-I: Text-to-Image Diffusion Models with an Ensemble of Expert Denoisers | **eDiff-I**          | [arXiv:2211.01324](https://arxiv.org/abs/2211.01324) | 2022.11.02 |           |      |
 
 
 
