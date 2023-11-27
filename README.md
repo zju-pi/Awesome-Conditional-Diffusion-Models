@@ -47,6 +47,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
 
 | Paper                                                        | Model            | Arxiv                                                | Date       | Comments  | Code |
 | ------------------------------------------------------------ | ---------------- | ---------------------------------------------------- | ---------- | --------- | ---- |
+| Vector Quantized Diffusion Model for Text-to-Image Synthesis | **VQDM**         | [arXiv:2111.14822](https://arxiv.org/abs/2111.14822) | 2021.11.29 | CVPR 2022 |      |
 | High-Resolution Image Synthesis with Latent Diffusion Models | **LDM**          | [arXiv:2112.10752](https://arxiv.org/abs/2112.10752) | 2021.12.20 | CVPR 2022 |      |
 | https://stablediffusionweb.com/                              | Stable Diffusion |                                                      |            |           |      |
 
