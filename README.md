@@ -28,6 +28,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
   - [Guidance Technics](#guidance-technics)
   - [Composition of Conditional Diffusion Models](#composition-of-conditional-diffusion-models)
   - [Super-Resolution for Conditional Diffusion Models](#super-resolution-for-conditional-diffusion-models)
+  - [Retrieval Based Augmentation](#retrieval-based-augmentation)
 
 **The date in the table represents the publication date of the first version of the paper on Arxiv.**
 
@@ -175,3 +176,11 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | Paper                                                        | Model/Technic  | Arxiv                                                | Date       | Comments  | Code |
 | :----------------------------------------------------------- | -------------- | ---------------------------------------------------- | ---------- | --------- | ---- |
 | Cascaded Diffusion Models for High Fidelity Image Generation | **Cascade DM** | [arXiv:2106.15282](https://arxiv.org/abs/2106.15282) | 2021.05.30 | JMLR 2022 |      |
+
+## Retrieval Based Augmentation
+
+| Paper                                                     | Model/Technic | Arxiv                                                | Date       | Comments  | Code |
+| :-------------------------------------------------------- | ------------- | ---------------------------------------------------- | ---------- | --------- | ---- |
+| KNN-Diffusion: Image Generation via Large-Scale Retrieval | KNN-Diffusion | [arXiv:2204.02849](https://arxiv.org/abs/2204.02849) | 2022.04.06 | ICLR 2023 |      |
+| Semi-Parametric Neural Image Synthesis                    | RDM           | [arXiv:2204.11824](https://arxiv.org/abs/2204.11824) | 2022.04.25 | NIPS 2022 |      |
+| Re-Imagen: Retrieval-Augmented Text-to-Image Generator    | **Re-Imagen** | [arXiv:2209.14491](https://arxiv.org/abs/2209.14491) | 2022.09.29 | ICLR 2023 |      |
