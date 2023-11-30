@@ -95,6 +95,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | Prompt-to-Prompt Image Editing with Cross Attention  Control | **Prompt-to-prompt** | [arXiv:2208.01626 ](https://arxiv.org/abs/2208.01626) | 2022.08.02 | ICLR 2023 |      |
 | Imagic: Text-Based Real Image Editing with Diffusion  Models | **Imagic**           | [arXiv:2210.09276](https://arxiv.org/abs/2210.09276)  | 2022.10.17 | CVPR 2023 |      |
 | DiffEdit: Diffusion-based semantic image editing with  mask guidance | **Diffedit**         | [arXiv:2210.11427 ](https://arxiv.org/abs/2210.11427) | 2022.10.20 | ICLR 2023 |      |
+| Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation | **Plug-and-Play**    | [arXiv:2211.12572](https://arxiv.org/abs/2211.12572)  | 2022.11.22 | CVPR 2023 |      |
 | FORGEDIT: TEXT GUIDED IMAGE EDITING VIA LEARN- ING AND  FORGETTING | **Forgedit**         | [arXiv:2309.10556](https://arxiv.org/abs/2309.10556)  | 2023.09.19 |           |      |
 
 ## CFG Inversion Technics
