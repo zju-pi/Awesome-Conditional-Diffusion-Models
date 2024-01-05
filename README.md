@@ -15,7 +15,6 @@ This repo is constructed for collecting and categorizing papers about conditiona
 - [Image editing](#image-editing)
   - [Text edit with CLIP](#text-edit-with-CLIP)
   - [Exploit big T2I models](#exploit-big-T2I-models)
-  - [CFG Inversion Technics](#CFG-inversion-technics)
 - [Customization](#customization)
   - [Model fine tuning](#model-fine-tuning)
   
@@ -29,6 +28,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
   - [Composition of Conditional Diffusion Models](#composition-of-conditional-diffusion-models)
   - [Super-Resolution for Conditional Diffusion Models](#super-resolution-for-conditional-diffusion-models)
   - [Retrieval Based Augmentation](#retrieval-based-augmentation)
+  - [DDIM Inversion](#ddim-inversion)
 
 **The date in the table represents the publication date of the first version of the paper on Arxiv.**
 
@@ -69,7 +69,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | High-Resolution Image Synthesis with Latent Diffusion  Models | **LDM**              | [arXiv:2112.10752](https://arxiv.org/abs/2112.10752) | 2021.12.20 | CVPR 2022 |      |
 | Pretraining is All You Need for Image-to-Image  Translation  | **PITI**             | [arXiv:2205.12952](https://arxiv.org/abs/2205.12952) | 2022.05.25 |           |      |
 | Sketch-Guided Text-to-Image Diffusion Models                 | **Sketch-Guided DM** | [arXiv:2211.13752](https://arxiv.org/abs/2211.13752) | 2022.11.24 |           |      |
-| T2i-adapter: Learning adapters to dig out more  controllable abil- ity for text-to-image diffusion models. | **T2i-adapter**      | [arXiv:2302.08453](https://arxiv.org/abs/2302.08453) | 2023.02.16 |           |      |
+| T2i-adapter: Learning adapters to d ig out more  controllable abil- ity for text-to-image diffusion models. | **T2i-adapter**      | [arXiv:2302.08453](https://arxiv.org/abs/2302.08453) | 2023.02.16 |           |      |
 | Adding Conditional Control to Text-to-Image Diffusion  Models | **ControlNet**       | [arXiv:2302.05543](https://arxiv.org/abs/2302.05543) | 2023.09.02 | CVPR 2023 |      |
 | eDiff-I: Text-to-Image Diffusion Models with an Ensemble of Expert Denoisers | **eDiff-I**          | [arXiv:2211.01324](https://arxiv.org/abs/2211.01324) | 2022.11.02 |           |      |
 
@@ -86,8 +86,6 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | Hierarchical Text-Conditional Image Generation with  CLIP Latents | **DALL-E2**         | [arXiv:2204.06125](https://arxiv.org/abs/2204.06125) | 2022.04.13 |           |      |
 | Diffusion Models already have a Semantic Latent Space        | **Asyrp**           | [arXiv:2210.10960](https://arxiv.org/abs/2210.10960) | 2022.10.20 | ICLR2023  |      |
 
-
-
 ## Exploit big T2I models
 
 | Paper                                                        | Model                | Arxiv                                                 | Date       | Comments  | Code |
@@ -98,16 +96,6 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation | **Plug-and-Play**    | [arXiv:2211.12572](https://arxiv.org/abs/2211.12572)  | 2022.11.22 | CVPR 2023 |      |
 | FORGEDIT: TEXT GUIDED IMAGE EDITING VIA LEARN- ING AND  FORGETTING | **Forgedit**         | [arXiv:2309.10556](https://arxiv.org/abs/2309.10556)  | 2023.09.19 |           |      |
 
-## CFG Inversion Technics
-
-| Paper                                                        | Model                   | Arxiv                                                 | Date       | Comments  | Code |
-| :----------------------------------------------------------- | ----------------------- | ----------------------------------------------------- | ---------- | --------- | ---- |
-| Null-text Inversion for Editing Real Images using  Guided Diffusion Models | **Null Text Inversion** | [arXiv:2211.09794](https://arxiv.org/abs/2211.09794)  | 2022.11.17 | CVPR 2023 |      |
-| EDICT: Exact Diffusion Inversion via Coupled Transformations | **EDICT**               | [arXiv:2211.12446](https://arxiv.org/abs/2211.12446)  | 2022.11.22 | CVPR 2023 |      |
-| Negative-prompt Inversion: Fast Image Inversion for  Editing with Text-guided Diffusion Models | **Negative Inversion**  | [arXiv:2305.16807 ](https://arxiv.org/abs/2305.16807) | 2023.05.26 |           |      |
-| StyleDiffusion: Controllable Disentangled Style  Transfer via Diffusion Models | Style Diffusion         | [arXiv:2308.07863](https://arxiv.org/abs/2308.07863)  | 2023.08.15 | ICCV 2023 |      |
-| Direct Inversion: Boosting Diffusion-based Editing  with 3 Lines of Code | Direct Inversion        | [arXiv:2310.01506 ](https://arxiv.org/abs/2310.01506) | 2023.10.02 |           |      |
-
 # Customization
 
 ## Model fine tuning
@@ -115,7 +103,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | Paper                                                        | Model                | Arxiv                                                 | Date       | Comments  | Code |
 | :----------------------------------------------------------- | -------------------- | ----------------------------------------------------- | ---------- | --------- | ---- |
 | DreamBooth: Fine Tuning Text-to-Image Diffusion Models  for Subject-Driven Generation | **DreamBooth**       | [arXiv:2208.12242 ](https://arxiv.org/abs/2208.12242) | 2022.08.25 | CVPR 2023 |      |
-| Multi-Concept Customization of Text-to-Image Diffusion       | **Custom Diffusion** | [arXiv:2212.04488](https://arxiv.org/abs/2212.04488)  | 2022.12.08 |           |      |
+| Multi-Concept Customization of Text-to-Image Diffusion       | **Custom Diffusion** | [arXiv:2212.04488](https://arxiv.org/abs/2212.04488)  | 2022.12.08 | CVPR 2023 |      |
 
 ## Textual embedding optimization
 
@@ -132,7 +120,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | Image Super-Resolution via Iterative Refinement              | **SR3**                     | [arXiv:2104.07636](https://arxiv.org/abs/2104.07636)  | 2021.04.15 |                     |      |
 | SRDiff: Single Image Super-Resolution with Diffusion  Probabilistic Models | **SRDiff**                  | [arXiv:2104.14951 ](https://arxiv.org/abs/2104.14951) | 2021.04.30 | Neurocomputing 2022 |      |
 | Cascaded Diffusion Models for High Fidelity Image  Generation | **Cascade Diffusion Model** | [arXiv:2106.15282 ](https://arxiv.org/abs/2106.15282) | 2021.05.30 | JMLR 2022           |      |
-| Palette: Image-to-Image Diffusion Models                     | **Palette**                 | [arXiv:2111.05826 ](https://arxiv.org/abs/2111.05826) | 2021.11.10 | ICLR 2022           |      |
+| Palette: Image-to-Image Diffusion Models                     | **Palette**                 | [arXiv:2111.05826 ](https://arxiv.org/abs/2111.05826) | 2021.11.10 | SIGGRAPH 2022       |      |
 | Image Restoration with Mean-Reverting Stochastic  Differential Equations | **IR-SDE**                  | [arXiv:2301.11699 ](https://arxiv.org/abs/2301.11699) | 2023.01.27 | ICML 2023           |      |
 | Denoising Diffusion Probabilistic Models for Robust  Image Super-Resolution in the Wild | **SR3+**                    | [arXiv:2302.07864 ](https://arxiv.org/abs/2302.07864) | 2023.02.15 |                     |      |
 | ResDiff: Combining CNN and Diffusion Model for Image  Super-Resolution | **Resdiff**                 | [arXiv:2303.08714 ](https://arxiv.org/abs/2303.08714) | 2023.03.15 |                     |      |
@@ -185,3 +173,15 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | KNN-Diffusion: Image Generation via Large-Scale Retrieval | KNN-Diffusion | [arXiv:2204.02849](https://arxiv.org/abs/2204.02849) | 2022.04.06 | ICLR 2023 |      |
 | Semi-Parametric Neural Image Synthesis                    | RDM           | [arXiv:2204.11824](https://arxiv.org/abs/2204.11824) | 2022.04.25 | NIPS 2022 |      |
 | Re-Imagen: Retrieval-Augmented Text-to-Image Generator    | **Re-Imagen** | [arXiv:2209.14491](https://arxiv.org/abs/2209.14491) | 2022.09.29 | ICLR 2023 |      |
+
+## DDIM Inversion
+
+| Paper                                                        | Model                   | Arxiv                                                 | Date       | Comments  | Code |
+| :----------------------------------------------------------- | ----------------------- | ----------------------------------------------------- | ---------- | --------- | ---- |
+| Null-text Inversion for Editing Real Images using  Guided Diffusion Models | **Null Text Inversion** | [arXiv:2211.09794](https://arxiv.org/abs/2211.09794)  | 2022.11.17 | CVPR 2023 |      |
+| EDICT: Exact Diffusion Inversion via Coupled Transformations | **EDICT**               | [arXiv:2211.12446](https://arxiv.org/abs/2211.12446)  | 2022.11.22 | CVPR 2023 |      |
+| Negative-prompt Inversion: Fast Image Inversion for  Editing with Text-guided Diffusion Models | **Negative Inversion**  | [arXiv:2305.16807 ](https://arxiv.org/abs/2305.16807) | 2023.05.26 |           |      |
+| StyleDiffusion: Controllable Disentangled Style  Transfer via Diffusion Models | Style Diffusion         | [arXiv:2308.07863](https://arxiv.org/abs/2308.07863)  | 2023.08.15 | ICCV 2023 |      |
+| Direct Inversion: Boosting Diffusion-based Editing  with 3 Lines of Code | Direct Inversion        | [arXiv:2310.01506 ](https://arxiv.org/abs/2310.01506) | 2023.10.02 |           |      |
+
+# 
