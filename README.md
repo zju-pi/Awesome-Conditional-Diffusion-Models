@@ -29,12 +29,12 @@ This repo is constructed for collecting and categorizing papers about conditiona
   - [Inversion](#inversion)
   - [Segmentations & Masks](#Segmentations-&-Masks)
   - [Embedding optimization](#embedding-optimization)
-  - [Attention manipulation](#Attention manipulation)
-  - [Guidance on conditional models](#guidance-on-conditional models)
-  - [Other conditioning techniques](#Other conditioning techniques)
+  - [Attention manipulation](#attention-manipulation)
+  - [Guidance on conditional models](#guidance-on-conditional-models)
+  - [Other conditioning techniques](#other-conditioning-techniques)
 
 - [Augmentations for conditional diffusion model](#augmentations-for-conditional-diffusion-model)
-  - [Retrival Augmentation](#Retrival Augmentation)
+  - [Retrival Augmentation](#retrival-Augmentation)
   - [Composition of conditional diffusion models](composition-of-conditional-diffusion-models)
   - [Sampling acceleration for text-to-image models](#sampling-acceleration-for-text-to-image-models)
 
