@@ -126,9 +126,9 @@ This repo is constructed for collecting and categorizing papers about conditiona
 
 ## Tabular for conditioning aproaches employed in each work
 
-| Model    | Website                                              | Date       | Comments | Retraining | Inversion | Segmentations & Masks | Embedding optimization | Attention manipulation | Guidance |
-| -------- | ---------------------------------------------------- | ---------- | -------- | ---------- | --------- | --------------------- | ---------------------- | ---------------------- | -------- |
-| **PITI** | [arXiv:2205.12952](https://arxiv.org/abs/2205.12952) | 2022.05.25 |          |            |           |                       |                        |                        |          |
+| Model    | Task | Retraining | Inversion | Segmentations & Masks | Embedding optimization | Attention manipulation | Guidance |
+| -------- | ---- | ---------- | --------- | --------------------- | ---------------------- | ---------------------- | -------- |
+| **PITI** |      |            |           |                       |                        |                        |          |
 
 ## Retraining
 
@@ -166,8 +166,6 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | **Pair-diffusion**    | https://arxiv.org/abs/2303.17546                     | 2023.03.30 | CVPR 2023     |
 | **Smartbrush**        | https://arxiv.org/abs/2212.05034                     | 2022.12.09 | CVPR 2023     |
 | **IIR-Net**           | https://arxiv.org/abs/2305.17489                     | 2023.05.27 | CVPR 2024     |
-
-
 
 ### Re-training for personal object memorizing
 
