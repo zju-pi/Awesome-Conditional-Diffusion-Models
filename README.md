@@ -86,15 +86,14 @@ This repo is constructed for collecting and categorizing papers about conditiona
 
 ## Conditioning on text
 
-| Model            | Website                                              | Date       | Comments  |
-| ---------------- | ---------------------------------------------------- | ---------- | --------- |
-| **VQDM**         | [arXiv:2111.14822](https://arxiv.org/abs/2111.14822) | 2021.11.29 | CVPR 2022 |
-| **LDM**          | [arXiv:2112.10752](https://arxiv.org/abs/2112.10752) | 2021.12.20 | CVPR 2022 |
-| **GLIDE**        | [arXiv:2112.10741](https://arxiv.org/abs/2112.10741) | 2021.12.20 | ICML 2022 |
-| **DALL-E2**      | [arXiv:2204.06125](https://arxiv.org/abs/2204.06125) | 2022.04.13 |           |
-| **Imagen**       | [arXiv:2205.11487](https://arxiv.org/abs/2205.11487) | 2022.05.23 | NIPS 2022 |
-| **eDiff-I**      | https://arxiv.org/abs/2211.01324                     | 2022.11.02 |           |
-| **VQ-Diffusion** | https://arxiv.org/abs/2111.14822                     | 2021.11.29 | CVPR 2022 |
+| Model       | Website                                              | Date       | Comments  |
+| ----------- | ---------------------------------------------------- | ---------- | --------- |
+| **VQDM**    | [arXiv:2111.14822](https://arxiv.org/abs/2111.14822) | 2021.11.29 | CVPR 2022 |
+| **LDM**     | [arXiv:2112.10752](https://arxiv.org/abs/2112.10752) | 2021.12.20 | CVPR 2022 |
+| **GLIDE**   | [arXiv:2112.10741](https://arxiv.org/abs/2112.10741) | 2021.12.20 | ICML 2022 |
+| **DALL-E2** | [arXiv:2204.06125](https://arxiv.org/abs/2204.06125) | 2022.04.13 |           |
+| **Imagen**  | [arXiv:2205.11487](https://arxiv.org/abs/2205.11487) | 2022.05.23 | NIPS 2022 |
+| **eDiff-I** | https://arxiv.org/abs/2211.01324                     | 2022.11.02 |           |
 
 ## Conditioning on image
 
@@ -121,6 +120,13 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | **SRDiff**                | https://arxiv.org/abs/2104.14951 | 2021.04.30 | Neurocomputing 2022 |
 | **ResDiff**               | https://arxiv.org/abs/2303.08714 | 2023.03.15 | AAAI 2024           |
 | **Diffusion autoencoder** | https://arxiv.org/abs/2111.15640 | 2021.11.30 | CVPR 2022           |
+
+## Fine-tuning unconditional diffusion model
+
+| Model       | Website                          | Date       | Comments            |
+| ----------- | -------------------------------- | ---------- | ------------------- |
+| **SRDiff**  | https://arxiv.org/abs/2104.14951 | 2021.04.30 | Neurocomputing 2022 |
+| **ResDiff** | https://arxiv.org/abs/2303.08714 | 2023.03.15 | AAAI 2024           |
 
 # Exploiting pre-trained text-to-image models
 
