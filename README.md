@@ -41,7 +41,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
 
 **The date in the table represents the publication date of the first version of the paper on Arxiv.**
 
-# Refine the generative process
+# Conditioning strategy for unconditional model
 
 ## Semantic meaningful Initialization
 
@@ -82,7 +82,14 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | **DDRM**  | https://arxiv.org/abs/2201.11793 | 2022.01.27 | ICLR 2022 |
 | **DDNM**  | https://arxiv.org/abs/2212.00490 | 2022.12.01 | ICLR 2023 |
 
-# Conditioning the diffusion model
+## Fine-tuning
+
+| Model             | Website | Date | Comments |
+| ----------------- | ------- | ---- | -------- |
+| **DiffusionCLIP** |         |      |          |
+| **Asyrp**         |         |      |          |
+
+# Supervised training for conditional diffusion model
 
 ## Conditioning on text
 
@@ -104,8 +111,6 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | **CDM**       | https://arxiv.org/abs/2106.15282 | 2021.05.30 | ICLR 2022       |
 | **SR3+**      | https://arxiv.org/abs/2302.07864 | 2023.01.15 |                 |
 | **Unit-DDPM** | https://arxiv.org/abs/2104.05358 | 2021.04.12 |                 |
-| **IR-SDE**    | https://arxiv.org/abs/2301.11699 | 2023.01.27 | ICML 2023       |
-| **InDI**      | https://arxiv.org/abs/2303.11435 | 2023.03.20 |                 |
 
 ## Conditioning on visual feature map
 
@@ -121,14 +126,14 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | **ResDiff**               | https://arxiv.org/abs/2303.08714 | 2023.03.15 | AAAI 2024           |
 | **Diffusion autoencoder** | https://arxiv.org/abs/2111.15640 | 2021.11.30 | CVPR 2022           |
 
-## Fine-tuning unconditional diffusion model
+## Conditioning for novel diffusion process
 
-| Model       | Website                          | Date       | Comments            |
-| ----------- | -------------------------------- | ---------- | ------------------- |
-| **SRDiff**  | https://arxiv.org/abs/2104.14951 | 2021.04.30 | Neurocomputing 2022 |
-| **ResDiff** | https://arxiv.org/abs/2303.08714 | 2023.03.15 | AAAI 2024           |
+| Model      | Website                          | Date       | Comments  |
+| ---------- | -------------------------------- | ---------- | --------- |
+| **IR-SDE** | https://arxiv.org/abs/2301.11699 | 2023.01.27 | ICML 2023 |
+| **InDI**   | https://arxiv.org/abs/2303.11435 | 2023.03.20 |           |
 
-# Exploiting pre-trained text-to-image models
+# Exploiting pre-trained conditional diffusion models
 
 ## Tabular for conditioning aproaches employed in each work
 
@@ -222,7 +227,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | **Region-Aware Diffusion** | https://arxiv.org/abs/2302.11797                      | 2023.02.23 |           |
 | **TDIELR**                 | https://arxiv.org/abs/2311.16432                      | 2023.11.28 |           |
 
-## Embedding optimization
+## Textual Inversion
 
 | Model                        | Website                                               | Date       | Comments  |
 | ---------------------------- | ----------------------------------------------------- | ---------- | --------- |
@@ -293,3 +298,4 @@ This repo is constructed for collecting and categorizing papers about conditiona
 | ----------------------- | -------------------------------- | ---------- | --------- |
 | **CoDi**                | https://arxiv.org/abs/2310.01407 | 2023.10.02 | CVPR 2024 |
 | **Distillation of GDM** | https://arxiv.org/abs/2210.03142 | 2022.10.06 | CVPR 2023 |
+
