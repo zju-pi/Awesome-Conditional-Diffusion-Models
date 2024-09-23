@@ -6,21 +6,38 @@ This repo is constructed for collecting and categorizing papers about conditiona
 
 ![Conditional image synthesis with diffusion model](https://github.com/Szy12345-liv/A-Survey-on-conditional-image-synthesis-with-diffusion-model/blob/main/Images/Conditional%20image%20synthesis%20with%20diffusion%20model.png)
 
+
 ## Abstract
 
 Conditional image synthesis based on user-specified requirements is a key component in creating complex visual content. In recent years, diffusion-based generative modeling has become a highly effective way for conditional image synthesis, leading to exponential growth in the literature. 
 However, the complexity of diffusion-based modeling, the wide range of image synthesis tasks, and the diversity of conditioning mechanisms present significant challenges for researchers to keep up with rapid developments and understand the core concepts on this topic. 
 In this survey, we categorize existing works based on how conditions are integrated into the two fundamental components of diffusion-based modeling, the denoising network and the sampling process. We specifically highlight the underlying principles, advantages, and potential challenges of various conditioning approaches in the training, re-purposing, and specialization stages to construct a desired denoising network. We also summarize six conditioning mechanisms in the essential sampling process. All discussions are centered around popular applications. Finally, we pinpoint some critical yet still open problems to be solved in the future and suggest some possible solutions.
 
-**The date in the table represents the publication date of the first version of the paper on Arxiv.**
-
 ## Contents
-
-[TOC]
-
+- [Condition Integration in Denoising Networks](#Condition Integration in Denoising Networks)
+  - [Condition Integration in the Training Stage](#Condition Integration in the Training Stage)
+    - [Conditional models for text-to-image (T2I)](#Conditional models for text-to-image (T2I))
+    - [Conditional Models for Image Restoration](#Conditional Models for Image Restoration)
+    - [Conditional Models for Other Synthesis Scenarios](#Conditional Models for Other Synthesis Scenarios)
+  - [Condition Integration in the Re-purposing Stage](#Condition Integration in the Re-purposing Stage)
+    - [Re-purposed Conditional Encoders](#Re-purposed Conditional Encoders)
+    - [Condition Injection](#Condition Injection)
+    - [Backbone Fine-tuning](#Backbone Fine-tuning)
+  - [Condition Integration in the Specialization Stage](#Condition Integration in the Specialization Stage)
+    - [Condition Injection](#Condition Injection)
+    - [Testing-time Model Fine-Tuning](#Testing-time Model Fine-Tuning)
+- [Condition Integration in the Sampling Process](#Condition Integration in the Sampling Process)
+  - [Inversion](#Inversion)
+  - [Attention Manipulation](#Attention Manipulation)
+  - [Noise Blending](#Noise Blending)
+  - [Revising Diffusion Process](#Revising Diffusion Process)   
+  - [Guidance](#Guidance)
+  - [Conditional Correction](#Conditional Correction)
 
 
 # Papers
+
+The date in the table represents the publication date of the first version of the paper on Arxiv.
 
 ## Condition Integration in Denoising Networks
 
@@ -46,7 +63,7 @@ In this survey, we categorize existing works based on how conditions are integra
 | [**Palette: Image-to-image diffusion models**](https://arxiv.org/abs/2111.05826) | 2021.11 | SIGGRAPH2022       |
 | [**Low-light image enhancement with wavelet-based diffusion models**](https://arxiv.org/abs/2306.00306) | 2023.6  | TOG2023            |
 | [**Srdiff: Single image super-resolution with diffusion probabilistic models**](https://arxiv.org/abs/2104.14951) | 2021.4  | Neurocomputing2022 |
-| [**Denoising diffusion probabilistic models for robust image super-resolution in the wild**](https://arxiv.org/abs/2302.07864) | 2023.3  | ARXIV2023          |
+| [**Denoising diffusion probabilistic models for robust image super-resolution in the wild**](https://arxiv.org/abs/2302.07864) | 2023.2  | ARXIV2023          |
 | [**Resdiff: Combining cnn and diffusion model for image super-resolution**](https://arxiv.org/abs/2303.08714) | 2023.3  | AAAI2024           |
 | [**Low-light image enhancement via clip-fourier guided wavelet diffusion**](https://arxiv.org/abs/2401.03788) | 2024.1  | ARXIV2024          |
 | [**Diffusion-based blind text image super-resolution**](https://arxiv.org/abs/2312.08886) | 2023.12 | CVPR2024           |
@@ -74,12 +91,12 @@ In this survey, we categorize existing works based on how conditions are integra
 | ------------------------------------------------------------ | ------- | ------------ |
 | [**T2i-adapter: Learning adapters to dig out more controllable ability for text-to-image diffusion models**](https://arxiv.org/abs/2302.08453) | 2023.2  | AAAI2024     |
 | [**Adding conditional control to text-to-image diffusion models**](https://arxiv.org/abs/2302.05543) | 2023.2  | ICCV2023     |
-| [**Pretraining is all you need for image-to-image translation**](https://arxiv.org/abs/2205.12952) | 2022.6  | ARXIV2022    |
+| [**Pretraining is all you need for image-to-image translation**](https://arxiv.org/abs/2205.12952) | 2022.5  | ARXIV2022    |
 | [**Blip-diffusion: pre-trained subject representation for controllable text-to-image generation and editing**](https://arxiv.org/abs/2305.14720) | 2023.5  | NeurIPS2023  |
 | [**Guiding instruction-based image editing via multimodal large language models**](https://arxiv.org/abs/2309.17102) | 2023.9  | ARXIV2023    |
 | [**Ranni: Taming text-to-image diffusion for accurate instruction following**](https://arxiv.org/abs/2311.17002) | 2023.11 | ARXIV2023    |
 | [**Encoder-based domain tuning for fast personalization of text-to-image models**](https://arxiv.org/abs/2302.12228) | 2023.2  | TOG2023      |
-| [**Pair-diffusion: Object-level image editing with structure-and-appearance paired diffusion models**](https://arxiv.org/abs/2303.17546v1) | 2023.5  | ARXIV2023    |
+| [**Pair-diffusion: Object-level image editing with structure-and-appearance paired diffusion models**](https://arxiv.org/abs/2303.17546v1) | 2023.3  | ARXIV2023    |
 | [**Smartedit: Exploring complex instruction-based image editing with multimodal large language models**](https://arxiv.org/abs/2312.06739) | 2023.12 | ARXIV2023    |
 | [**Taming encoder for zero fine-tuning image customization with text-to-image diffusion models**](https://arxiv.org/abs/2304.02642) | 2023.4  | ARXIV2023    |
 | [**Lightit: Illumination modeling and control for diffusion models**](https://arxiv.org/abs/2403.10615) | 2024.3  | CVPR2024     |
@@ -100,7 +117,7 @@ In this survey, we categorize existing works based on how conditions are integra
 | ------------------------------------------------------------ | ------- | ----------- |
 | [**Ip-adapter: Text compatible image prompt adapter for text-to-image diffusion models**](https://arxiv.org/abs/2308.06721) | 2023.8  | ARXIV2023   |
 | [**GLIGEN: open-set grounded text-to-image generation**](https://arxiv.org/abs/2301.07093) | 2023.1  | CVPR2023    |
-| [**Dragondiffusion: Enabling drag-style manipulation on diffusion models**](https://arxiv.org/abs/2307.02421) | 2023.6  | ICLR2024    |
+| [**Dragondiffusion: Enabling drag-style manipulation on diffusion models**](https://arxiv.org/abs/2307.02421) | 2023.7  | ICLR2024    |
 | [**Mix-of-show: Decentralized low-rank adaptation for multi-concept customization of diffusion models**](https://arxiv.org/abs/2305.18292) | 2023.5  | NeurIPS2024 |
 | [**Interactdiffusion: Interaction control in text-to-image diffusion models**](https://arxiv.org/abs/2312.05849) | 2023.12 | ARXIV2023   |
 | [**Deadiff: An efficient stylization diffusion model with disentangled representations**](https://arxiv.org/abs/2403.06951) | 2024.3  | CVPR2024    |
@@ -118,14 +135,14 @@ In this survey, we categorize existing works based on how conditions are integra
 | [**Reference-based image composition with sketch via structure-aware diffusion model**](https://arxiv.org/abs/2304.09748) | 2023.3  | ARXIV2023   |
 | [**Emu edit: Precise image editing via recognition and generation tasks**](https://arxiv.org/abs/2311.10089) | 2023.11 | CVPR2024    |
 | [**Objectstitch: Object compositing with diffusion model**](https://arxiv.org/abs/2212.00932v1) | 2022.12 | CVPR2023    |
-| [**Imagen editor and editbench: Advancing and evaluating textguided image inpainting**](https://arxiv.org/abs/2212.06909) | 2022.12 | CVPR2023    |
+| [**Imagen editor and editbench: Advancing and evaluating text-guided image inpainting**](https://arxiv.org/abs/2212.06909) | 2022.12 | CVPR2023    |
 | [**Dialogpaint: A dialogbased image editing model**](https://arxiv.org/abs/2303.10073) | 2023.3  | ARXIV2023   |
 | [**Smartbrush: Text and shape guided object inpainting with diffusion model**](https://arxiv.org/abs/2212.05034) | 2022.12 | CVPR2023    |
 | [**Dreaminpainter: Text-guided subject-driven image inpainting with diffusion models**](https://arxiv.org/abs/2312.03771) | 2023.12 | ARXIV2023   |
 | [**Inst-inpaint: Instructing to remove objects with diffusion models**](https://arxiv.org/abs/2304.03246) | 2023.4  | ARXIV2023   |
 | [**Magicbrush: A manually annotated dataset for instruction-guided image editing**](https://arxiv.org/abs/2306.10012) | 2023.6  | NeurIPS2024 |
 | [**Hive: Harnessing human feedback for instructional visual editing**](https://arxiv.org/abs/2303.09618) | 2023.3  | CVPR2024    |
-| [**Text-toimage editing by image information removal**](https://arxiv.org/abs/2305.17489) | 2023.5  | WACV2024    |
+| [**Text-to-image editing by image information removal**](https://arxiv.org/abs/2305.17489) | 2023.5  | WACV2024    |
 
 ### Condition Integration in the Specialization Stage
 
@@ -188,7 +205,7 @@ In this survey, we categorize existing works based on how conditions are integra
 
 | Title                                                        | Date    | Publication |
 | ------------------------------------------------------------ | ------- | ----------- |
-| [**Prompt-to-prompt image editing with crossattention control**](https://arxiv.org/abs/2208.01626) | 2022.8  | ICLR2023    |
+| [**Prompt-to-prompt image editing with cross attention control**](https://arxiv.org/abs/2208.01626) | 2022.8  | ICLR2023    |
 | [**Plug-and-play diffusion features for text-driven image-to-image translation**](https://arxiv.org/abs/2211.12572) | 2022.11 | CVPR2023    |
 | [**Masactrl: Tuning-free mutual self-attention control for consistent image synthesis and editing**](https://arxiv.org/abs/2304.08465) | 2023.4  | ICCV2023    |
 | [**ediffi: Text-toimage diffusion models with an ensemble of expert denoisers**](https://arxiv.org/abs/2211.01324) | 2022.11 | ARXIV2022   |
@@ -202,7 +219,7 @@ In this survey, we categorize existing works based on how conditions are integra
 | [**Dragondiffusion: Enabling drag-style manipulation on diffusion models**](https://arxiv.org/abs/2307.02421) | 2023.7  | ICLR2024    |
 | [**Dragdiffusion: Harnessing diffusion models for interactive point-based image editing**](https://arxiv.org/abs/2306.14435) | 2023.6  | CVPR2024    |
 | [**Stylediffusion: Controllable disentangled style transfer via diffusion models**](https://arxiv.org/abs/2308.07863) | 2023.8  | ICCV2023    |
-| [**Dynamic prompt learning: Addressing cross-attention leakage for textbased image editing**](https://arxiv.org/abs/2309.15664) | 2023.9  | NeurIPS2024 |
+| [**Dynamic prompt learning: Addressing cross-attention leakage for text-based image editing**](https://arxiv.org/abs/2309.15664) | 2023.9  | NeurIPS2024 |
 
 ### Noise Blending
 
@@ -254,10 +271,10 @@ In this survey, we categorize existing works based on how conditions are integra
 | [**Freecontrol: Training-free spatial control of any text-to-image diffusion model with any condition**](https://arxiv.org/abs/2312.07536) | 2023.12 | CVPR2024     |
 | [**Diffeditor: Boosting accuracy and flexibility on diffusion-based image editing**](https://arxiv.org/abs/2402.02583) | 2024.2  | CVPR2024     |
 | [**Dragondiffusion: Enabling drag-style manipulation on diffusion models**](https://arxiv.org/abs/2307.02421) | 2023.7  | ICLR2024     |
-| [**Energybased cross attention for bayesian context update in text-to-image diffusion models**](https://arxiv.org/abs/2306.09869) | 2023.6  | NeurIPS2024  |
+| [**Energy-based cross attention for bayesian context update in text-to-image diffusion models**](https://arxiv.org/abs/2306.09869) | 2023.6  | NeurIPS2024  |
 | [**Solving linear inverse problems provably via posterior sampling with latent diffusion models**](https://arxiv.org/abs/2307.00619) | 2023.7  | NeurIPS2024  |
 | [**High-fidelity guided image synthesis with latent diffusion models**](https://arxiv.org/abs/2211.17084) | 2022.11 | CVPR2023     |
-| [**Pseudoinverseguided diffusion models for inverse problems **](https://openreview.net/pdf?id=9_gsMA8MRKQ) | 2023.2  | ICLR2023     |
+| [**Pseudoinverse-guided diffusion models for inverse problems **](https://openreview.net/pdf?id=9_gsMA8MRKQ) | 2023.2  | ICLR2023     |
 | [**Freedom: Training-free energy-guided conditional diffusion model**](https://arxiv.org/abs/2303.09833) | 2023.3  | ICCV2023     |
 
 ### Conditional Correction
