@@ -14,7 +14,7 @@ However, the complexity of diffusion-based modeling, the wide range of image syn
 In this survey, we categorize existing works based on how conditions are integrated into the two fundamental components of diffusion-based modeling, the denoising network and the sampling process. We specifically highlight the underlying principles, advantages, and potential challenges of various conditioning approaches in the training, re-purposing, and specialization stages to construct a desired denoising network. We also summarize six conditioning mechanisms in the essential sampling process. All discussions are centered around popular applications. Finally, we pinpoint some critical yet still open problems to be solved in the future and suggest some possible solutions.
 
 ## Contents
-- [Condition Integration in Denoising Networks](#Condition Integration in Denoising Networks)
+- [Condition Integration in Denoising Networks](#condition-integration-in-denoising-networks)
   - [Condition Integration in the Training Stage](#Condition Integration in the Training Stage)
     - [Conditional models for text-to-image (T2I)](#Conditional models for text-to-image (T2I))
     - [Conditional Models for Image Restoration](#Conditional Models for Image Restoration)
