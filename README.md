@@ -6,8 +6,7 @@ This repo is constructed for collecting and categorizing papers about conditiona
 
 ![Conditional image synthesis with diffusion model](https://github.com/Szy12345-liv/A-Survey-on-conditional-image-synthesis-with-diffusion-model/blob/main/Images/Conditional%20image%20synthesis%20with%20diffusion%20model.png)
 
-![Sampling](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models/blob/main/Images/Sampling.png)
-![Workflow](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models/blob/main/Images/workflow.png)
+
 ## Abstract
 
 Conditional image synthesis based on user-specified requirements is a key component in creating complex visual content. In recent years, diffusion-based generative modeling has become a highly effective way for conditional image synthesis, leading to exponential growth in the literature. 
@@ -35,8 +34,7 @@ In this survey, we categorize existing works based on how conditions are integra
     - [Revising Diffusion Process](#Revising-Diffusion-Process)   
     - [Guidance](#Guidance)
     - [Conditional Correction](#Conditional-Correction)
-
-
+- [Images](#Images)
 # Papers
 
 The date in the table represents the publication date of the first version of the paper on Arxiv.
@@ -300,6 +298,16 @@ The date in the table represents the publication date of the first version of th
 | [**Text-driven image editing via learnable regions**](https://arxiv.org/abs/2311.16432) | 2023.11 | CVPR2024    |
 
 
+# Images
+
+An example of the workflow to build denoising network via training, re-purposing and specialization stages.
+![Workflow](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models/blob/main/Images/workflow.png)
 
 
 
+An example of the conditional sampling process for image editing
+![Sampling](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models/blob/main/Images/Sampling.png)
+
+
+Seven representative conditional image synthesis tasks with their input/output.
+![tasks](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models/blob/main/Images/conditional%20image%20synthesis%20tasks.png)
