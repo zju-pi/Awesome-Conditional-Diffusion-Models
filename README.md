@@ -31,8 +31,8 @@ Conditional image synthesis based on user-specified requirements is a key compon
 
 ## Contents
 - [Overview](#Overview)
-  - [Paper Structure](#Paper Structure)
-  - [Conditional image synthesis tasks](#Conditional image synthesis tasks)
+  - [Paper Structure](#Paper-Structure)
+  - [Conditional image synthesis tasks](#Conditional-image-synthesis-tasks)
 - [Papers](#Papers)
   - [Condition Integration in Denoising Networks](#condition-integration-in-denoising-networks)
     - [Condition Integration in the Training Stage](#Condition-Integration-in-the-Training-Stage)
