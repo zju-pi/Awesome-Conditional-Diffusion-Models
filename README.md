@@ -1,25 +1,40 @@
 # A Survey on conditional image synthesis with diffusion model
 
-This repo is constructed for collecting and categorizing papers about conditional image synthesis with-diffusion-model.
+[![Awesome](media/badge.svg)](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models/tree/main) 
 
-## Paper Structure
+[![License: MIT](media/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-![Conditional image synthesis with diffusion model](https://github.com/Szy12345-liv/A-Survey-on-conditional-image-synthesis-with-diffusion-model/blob/main/Images/Conditional%20image%20synthesis%20with%20diffusion%20model.png)
+[![visitors](https://visitor-badge.laobi.icu/badge?page_id=zju-pi/Awesome-Conditional-Diffusion-Models/tree/main)](https://visitor-badge.laobi.icu/badge?page_id=zju-pi/Awesome-Conditional-Diffusion-Models/tree/main)
 
-## An example of the workflow to build denoising network via training, re-purposing and specialization stages
-![Workflow](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models/blob/main/Images/workflow.png)
+The repository is based on our survey [Conditional Image Synthesis with Diffusion Models: A Survey](https://arxiv.org/pdf/2409.19365)
 
-## An example of the conditional sampling process for image editing
-![Sampling](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models/blob/main/Images/Sampling.png)
+Zheyuan Zhan, Defang Chen, Jian-Ping Mei, Zhenghe Zhao, Jiawei Chen, Chun Chen, Siwei Lyu, Fellow, IEEE and Can Wang
 
-## Seven representative conditional image synthesis tasks with their input/output
-![tasks](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models/blob/main/Images/conditional%20image%20synthesis%20tasks.png)
+Zhejiang University,University at Buffalo, State University of New York,Zhejiang University of Technology
 
 ## Abstract
 
 Conditional image synthesis based on user-specified requirements is a key component in creating complex visual content. In recent years, diffusion-based generative modeling has become a highly effective way for conditional image synthesis, leading to exponential growth in the literature. However, the complexity of diffusion-based modeling, the wide range of image synthesis tasks, and the diversity of conditioning mechanisms present significant challenges for researchers to keep up with rapid developments and understand the core concepts on this topic. In this survey, we categorize existing works based on how conditions are integrated into the two fundamental components of diffusion-based modeling, i.e., the denoising network and the sampling process. We specifically highlight the underlying principles, advantages, and potential challenges of various conditioning approaches in the training, re-purposing, and specialization stages to construct a desired denoising network. We also summarize six mainstream conditioning mechanisms in the essential sampling process. All discussions are centered around popular applications. Finally, we pinpoint some critical yet still open problems to be solved in the future and suggest some possible solutions.
 
+## 🎉News!
+
+📆2024-10-05: Our comprehensive survey paper, summarizing related methods published before October 1, 2024, is now available.
+
+## 📄BibTeX
+
+```
+@article{zhan2024conditional,
+  title={Conditional Image Synthesis with Diffusion Models: A Survey},
+  author={Zhan, Zheyuan and Chen, Defang and Mei, Jian-Ping and Zhao, Zhenghe and Chen, Jiawei and Chen, Chun and Lyu, Siwei and Wang, Can},
+  journal={arXiv preprint arXiv:2409.19365},
+  year={2024}
+}
+```
+
 ## Contents
+- [Overview](#Overview)
+  - [Paper Structure](#Paper Structure)
+  - [Conditional image synthesis tasks](#Conditional image synthesis tasks)
 - [Papers](#Papers)
   - [Condition Integration in Denoising Networks](#condition-integration-in-denoising-networks)
     - [Condition Integration in the Training Stage](#Condition-Integration-in-the-Training-Stage)
@@ -40,11 +55,26 @@ Conditional image synthesis based on user-specified requirements is a key compon
     - [Revising Diffusion Process](#Revising-Diffusion-Process)   
     - [Guidance](#Guidance)
     - [Conditional Correction](#Conditional-Correction)
+
+# Overview
+
+In the two figures below, they respectively illustrate the DCIS taxonomy in this survey and the categorization of conditional image synthesis tasks.
+
+## Paper Structure
+
+![Conditional image synthesis with diffusion model](https://github.com/Szy12345-liv/A-Survey-on-conditional-image-synthesis-with-diffusion-model/blob/main/Images/Conditional%20image%20synthesis%20with%20diffusion%20model.png)
+
+## Conditional image synthesis tasks
+
+![tasks](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models/blob/main/Images/conditional%20image%20synthesis%20tasks.png)
+
 # Papers
 
 The date in the table represents the publication date of the first version of the paper on Arxiv.
 
 ## Condition Integration in Denoising Networks
+
+![Workflow](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models/blob/main/Images/workflow.png)
 
 ### Condition Integration in the Training Stage
 
@@ -89,8 +119,6 @@ The date in the table represents the publication date of the first version of th
 | [**Dolce: A model-based probabilistic diffusion framework for limited-angle ct reconstruction**](https://arxiv.org/abs/2211.12340) | Medical image synthesis | 2022.11 | ICCV2023                 |
 | [**Zero-shot medical image translation via frequency-guided diffusion models**](https://arxiv.org/abs/2304.02742) | Image editing | 2023.4  | Trans. Med. Imaging 2023 |
 | [**Learned representation-guided diffusion models for large-image generation**](https://arxiv.org/abs/2312.07330) | / | 2023.12 | ARXIV2023                |
-
-
 
 ### Condition Integration in the Re-purposing Stage
 
@@ -185,6 +213,8 @@ The date in the table represents the publication date of the first version of th
 | [**Cones 2: Customizable image synthesis with multiple subjects**](https://arxiv.org/abs/2305.19327) | Customization | 2023.5  | NeurIPS2023       |
 
 ## Condition Integration in the Sampling Process
+
+![Sampling](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models/blob/main/Images/Sampling.png)
 
 ### Inversion
 
