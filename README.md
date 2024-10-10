@@ -72,6 +72,8 @@ The date in the table represents the publication date of the first version of th
 
 ## Condition Integration in Denoising Networks
 
+This figure provides an examplar workflow to build desired denoising network for conditional synthesis tasks including text-to-image, visual signals to image and customization via these three condition integration stages.
+
 ![Workflow](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models/blob/main/Images/workflow.png)
 
 ### Condition Integration in the Training Stage
@@ -211,6 +213,8 @@ The date in the table represents the publication date of the first version of th
 | [**Cones 2: Customizable image synthesis with multiple subjects**](https://arxiv.org/abs/2305.19327) | Customization | 2023.5  | NeurIPS2023       |
 
 ## Condition Integration in the Sampling Process
+
+We illustrate six conditioning mechanisms with an exemplary image editing process in next figure.
 
 ![Sampling](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models/blob/main/Images/Sampling.png)
 
