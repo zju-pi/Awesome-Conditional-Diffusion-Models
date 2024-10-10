@@ -1,9 +1,7 @@
 # A Survey on conditional image synthesis with diffusion model
 
 [![Awesome](media/badge.svg)](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models/tree/main) 
-
 [![License: MIT](media/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-
 [![visitors](https://visitor-badge.laobi.icu/badge?page_id=zju-pi/Awesome-Conditional-Diffusion-Models/tree/main)](https://visitor-badge.laobi.icu/badge?page_id=zju-pi/Awesome-Conditional-Diffusion-Models/tree/main)
 
 The repository is based on our survey [Conditional Image Synthesis with Diffusion Models: A Survey](https://arxiv.org/pdf/2409.19365)
