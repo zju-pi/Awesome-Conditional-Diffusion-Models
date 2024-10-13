@@ -304,7 +304,7 @@ We illustrate six conditioning mechanisms with an exemplary image editing proces
 | [**Parallel diffusion models of operator and image for blind inverse problems**](https://arxiv.org/abs/2211.10656) | Image restoration | 2022.11 | CVPR2023     |
 | [**Zero-shot image-to-image translation**](https://arxiv.org/abs/2302.03027) | Image editing | 2023.2  | SIGGRAPH2023 |
 | [**Universal guidance for diffusion models**](https://arxiv.org/abs/2302.07121) | General guidance framework | 2023.2  | CVPR2023     |
-| [**Pseudoinverse-guided diffusion models for inverse problems **](https://openreview.net/pdf?id=9_gsMA8MRKQ) | Image restoration | 2023.2  | ICLR2023     |
+| [**Pseudoinverse-guided diffusion models for inverse problems**](https://openreview.net/pdf?id=9_gsMA8MRKQ) | Image restoration | 2023.2  | ICLR2023     |
 | [**Freedom: Training-free energy-guided conditional diffusion model**](https://arxiv.org/abs/2303.09833) | General guidance framework | 2023.3  | ICCV2023     |
 | [**Training-free layout control with cross-attention guidance**](https://arxiv.org/abs/2304.03373) | Layout control | 2023.4  | WACV2024     |
 | [**Generative diffusion prior for unified image restoration and enhancement**](https://arxiv.org/abs/2304.01247) | Image restoration | 2023.4  | CVPR2023  |
