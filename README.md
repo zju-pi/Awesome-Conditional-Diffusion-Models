@@ -1,14 +1,12 @@
-# A Survey on conditional image synthesis with diffusion model
+# A Survey on Conditional Image Synthesis with Diffusion Models
 
 [![Awesome](media/badge.svg)](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models/tree/main) 
 [![License: MIT](media/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![visitors](https://visitor-badge.laobi.icu/badge?page_id=zju-pi/Awesome-Conditional-Diffusion-Models/tree/main)](https://visitor-badge.laobi.icu/badge?page_id=zju-pi/Awesome-Conditional-Diffusion-Models/tree/main)
 
-The repository is based on our survey [Conditional Image Synthesis with Diffusion Models: A Survey](https://arxiv.org/pdf/2409.19365)
+The repository is based on our recently released survey [Conditional Image Synthesis with Diffusion Models: A Survey](https://arxiv.org/pdf/2409.19365)
 
 Zheyuan Zhan, Defang Chen, Jian-Ping Mei, Zhenghe Zhao, Jiawei Chen, Chun Chen, Siwei Lyu, Fellow, IEEE and Can Wang
-
-Zhejiang University,University at Buffalo, State University of New York,Zhejiang University of Technology
 
 ## Abstract
 
@@ -20,7 +18,7 @@ Conditional image synthesis based on user-specified requirements is a key compon
 
 ## BibTeX
 
-```
+```bibtex
 @article{zhan2024conditional,
   title={Conditional Image Synthesis with Diffusion Models: A Survey},
   author={Zhan, Zheyuan and Chen, Defang and Mei, Jian-Ping and Zhao, Zhenghe and Chen, Jiawei and Chen, Chun and Lyu, Siwei and Wang, Can},
