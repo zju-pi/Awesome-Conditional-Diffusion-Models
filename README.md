@@ -86,7 +86,7 @@ This figure provides an examplar workflow to build desired denoising network for
 | [**Hierarchical text-conditional image generation with CLIP latents**](https://arxiv.org/abs/2204.06125) | Text-to-image | 2022.4  | ARXIV2022   |
 | [**Photorealistic text-to-image diffusion models with deep language understanding**](https://arxiv.org/abs/2205.11487) | Text-to-image | 2022.5  | NeurIPS2022 |
 | [**ediffi: Text-to-image diffusion models with an ensemble of expert denoisers**](https://arxiv.org/abs/2211.01324) | Text-to-image | 2022.11 | ARXIV2022   |
-| [**PIXART-α: FAST TRAINING OF DIFFUSION TRANS- FORMER FOR PHOTOREALISTIC TEXT-TO-IMAGE SYNTHESIS**](https://arxiv.org/abs/2310.00426) | Text-to-image | 2023.10 | ICLR2024   |
+| [**PixArt-α: Fast Training of Diffusion Transformer for Photorealistic Text-to-Image Synthesis**](https://arxiv.org/abs/2310.00426) | Text-to-image | 2023.10 | ICLR2024   |
 | [**Scaling Rectified Flow Transformers for High-Resolution Image Synthesis**](https://arxiv.org/abs/2403.03206) | Text-to-image | 2024.03 | ICML2024   |
 
 
@@ -262,7 +262,7 @@ We illustrate six conditioning mechanisms with an exemplary image editing proces
 | [**Focus on your instruction: Fine-grained and multi-instruction image editing by attention modulation**](https://arxiv.org/abs/2312.10113) | Image editing  | 2023.12 | ARXIV2023   |
 | [**Towards understanding cross and self-attention in stable diffusion for text-guided image editing**](https://arxiv.org/abs/2403.03431) | Image editing  | 2024.3  | CVPR2024    |
 | [**Taming Rectified Flow for Inversion and Editing**](https://arxiv.org/abs/2411.04746) | Image editing  | 2024.11  | ARXIV2024    |
-| [**ADD-IT: TRAINING-FREE OBJECT INSERTION IN IM- AGES WITH PRETRAINED DIFFUSION MODELS**](https://arxiv.org/abs/2411.07232) | Image editing  | 2024.11  | ARXIV2024    |
+| [**Add-it: Training-Free Object Insertion in Images With Pretrained Diffusion Models**](https://arxiv.org/abs/2411.07232) | Image editing  | 2024.11  | ARXIV2024    |
 
 ### Noise Blending
 
@@ -306,7 +306,7 @@ We illustrate six conditioning mechanisms with an exemplary image editing proces
 | [**Parallel diffusion models of operator and image for blind inverse problems**](https://arxiv.org/abs/2211.10656) | Image restoration | 2022.11 | CVPR2023     |
 | [**Zero-shot image-to-image translation**](https://arxiv.org/abs/2302.03027) | Image editing | 2023.2  | SIGGRAPH2023 |
 | [**Universal guidance for diffusion models**](https://arxiv.org/abs/2302.07121) | General guidance framework | 2023.2  | CVPR2023     |
-| [**Pseudoinverse-guided diffusion models for inverse problems **](https://openreview.net/pdf?id=9_gsMA8MRKQ) | Image restoration | 2023.2  | ICLR2023     |
+| [**Pseudoinverse-guided diffusion models for inverse problems**](https://openreview.net/pdf?id=9_gsMA8MRKQ) | Image restoration | 2023.2  | ICLR2023     |
 | [**Freedom: Training-free energy-guided conditional diffusion model**](https://arxiv.org/abs/2303.09833) | General guidance framework | 2023.3  | ICCV2023     |
 | [**Training-free layout control with cross-attention guidance**](https://arxiv.org/abs/2304.03373) | Layout control | 2023.4  | WACV2024     |
 | [**Generative diffusion prior for unified image restoration and enhancement**](https://arxiv.org/abs/2304.01247) | Image restoration | 2023.4  | CVPR2023  |
