@@ -86,6 +86,8 @@ This figure provides an examplar workflow to build desired denoising network for
 | [**Hierarchical text-conditional image generation with CLIP latents**](https://arxiv.org/abs/2204.06125) | Text-to-image | 2022.4  | ARXIV2022   |
 | [**Photorealistic text-to-image diffusion models with deep language understanding**](https://arxiv.org/abs/2205.11487) | Text-to-image | 2022.5  | NeurIPS2022 |
 | [**ediffi: Text-to-image diffusion models with an ensemble of expert denoisers**](https://arxiv.org/abs/2211.01324) | Text-to-image | 2022.11 | ARXIV2022   |
+| [**PIXART-α: FAST TRAINING OF DIFFUSION TRANS- FORMER FOR PHOTOREALISTIC TEXT-TO-IMAGE SYNTHESIS**](https://arxiv.org/abs/2310.00426) | Text-to-image | 2023.10 | ICLR2024   |
+| [**Scaling Rectified Flow Transformers for High-Resolution Image Synthesis**](https://arxiv.org/abs/2403.03206) | Text-to-image | 2024.03 | ICML2024   |
 
 
 #### Conditional Models for Image Restoration
@@ -259,6 +261,8 @@ We illustrate six conditioning mechanisms with an exemplary image editing proces
 | [**Style injection in diffusion: A training-free approach for adapting large-scale diffusion models for style transfer**](https://arxiv.org/abs/2312.09008) | Image editing  | 2023.12 | CVPR2024    |
 | [**Focus on your instruction: Fine-grained and multi-instruction image editing by attention modulation**](https://arxiv.org/abs/2312.10113) | Image editing  | 2023.12 | ARXIV2023   |
 | [**Towards understanding cross and self-attention in stable diffusion for text-guided image editing**](https://arxiv.org/abs/2403.03431) | Image editing  | 2024.3  | CVPR2024    |
+| [**Taming Rectified Flow for Inversion and Editing**](https://arxiv.org/abs/2411.04746) | Image editing  | 2024.11  | ARXIV2024    |
+| [**ADD-IT: TRAINING-FREE OBJECT INSERTION IN IM- AGES WITH PRETRAINED DIFFUSION MODELS**](https://arxiv.org/abs/2411.07232) | Image editing  | 2024.11  | ARXIV2024    |
 
 ### Noise Blending
 
