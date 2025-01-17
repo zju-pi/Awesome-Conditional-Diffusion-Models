@@ -68,6 +68,10 @@ In the two figures below, they respectively illustrate the DCIS taxonomy in this
 
 The date in the table represents the publication date of the first version of the paper on Arxiv.
 
+## DDPM denoising network 
+
+![Workflow](https://github.com/zju-pi/Awesome-Conditional-Diffusion-Models/blob/main/Images/U-Net.jpg)
+
 ## Condition Integration in Denoising Networks
 
 This figure provides an examplar workflow to build desired denoising network for conditional synthesis tasks including text-to-image, visual signals to image and customization via these three condition integration stages.
