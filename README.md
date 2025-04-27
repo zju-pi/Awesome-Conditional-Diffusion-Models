@@ -16,6 +16,8 @@ Conditional image synthesis based on user-specified requirements is a key compon
 
 📆2024-10-05: Our comprehensive survey paper, summarizing related methods published before October 1, 2024, is now available.
 
+📆2025-04-27: Our paper is accepted by TMLR!!!
+
 ## BibTeX
 
 ```bibtex
