@@ -4,9 +4,11 @@
 [![License: MIT](media/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![visitors](https://visitor-badge.laobi.icu/badge?page_id=zju-pi/Awesome-Conditional-Diffusion-Models/tree/main)](https://visitor-badge.laobi.icu/badge?page_id=zju-pi/Awesome-Conditional-Diffusion-Models/tree/main)
 
-The repository is based on our recently released survey [Conditional Image Synthesis with Diffusion Models: A Survey](https://arxiv.org/pdf/2409.19365)
+The repository is based on our survey paper [Conditional Image Synthesis with Diffusion Models: A Survey](https://arxiv.org/pdf/2409.19365)
 
-Zheyuan Zhan, Defang Chen, Jian-Ping Mei, Zhenghe Zhao, Jiawei Chen, Chun Chen, Siwei Lyu, Fellow, IEEE and Can Wang
+**TMLR (Survey Certification, 53 Pages)**: https://openreview.net/forum?id=ewwNKwh6SK
+
+Zheyuan Zhan, Defang Chen, Jian-Ping Mei, Zhenghe Zhao, Jiawei Chen, Chun Chen, Siwei Lyu and Can Wang
 
 ## Abstract
 
